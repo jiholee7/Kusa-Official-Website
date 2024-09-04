@@ -1,0 +1,464 @@
+{
+  "company": {
+    "name": "React landing page 2021",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Home",
+      "href": "/",
+      "key": "home"
+    },
+    {
+      "name": "Board",
+      "href": "/board",
+      "key": "board"
+    },
+    {
+      "name": "Pillars",
+      "href": "/pillars",
+      "key": "pillars"
+    },
+
+    {
+      "name": "Photos",
+      "href": "/photos",
+      "key": "photos"
+    },
+    {
+      "name": "Calendar",
+      "href": "/calendar",
+      "key": "calendar"
+    }
+  ],
+  "mainHero": {
+    "title": "Korean Undergraduate Student Association",
+    "subtitle": "What is KUSA?",
+    "description": "KUSA was established in 1985 with one goal: to provide a safe, welcoming space for students of any background interested in Korean culture to come together. Through our pillars of Culture, Community, and Education, KUSA is a resource to share and celebrate Korean culture.",
+    "img": "/assets/images/kusahero.jpg",
+    "primaryAction": {
+      "text": "Vist our Instagram!",
+      "href": "https://www.instagram.com/ufkusa/"
+    },
+    "secondaryAction": {
+      "text": "Linktree for Events",
+      "href": "https://linktr.ee/ufkusa"
+    }
+  },
+  "board": {
+    "title": "Meet Our 2024-2025 Board!",
+    "img": "/assets/images/officers.jpg",
+    "eboard": [
+      {
+        "name": "Joseph Choi",
+        "role": "President",
+        "statement": "Here to make KUSA awesome!",
+        "img": "/assets/images/boardpics/joe.jpg",
+        "key": "joe"
+      },
+      {
+        "name": "Colin Strom",
+        "role": "External Vice President",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/colin.jpg",
+        "key": "colin"
+      },
+      {
+        "name": "Lindsay Cruz",
+        "role": "Internal Vice President",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/lindsay.jpg",
+        "key": "lindsay"
+      },
+      {
+        "name": "Rachel Obora",
+        "role": "Secretary",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/rachel.jpg",
+        "key": "rachel"
+      },
+      {
+        "name": "Kevin Liu",
+        "role": "Treasurer",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/kevin.jpg",
+        "key": "kevin"
+      },
+      {
+        "name": "Lee Ahn",
+        "role": "Cultural Director",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/lee.jpg",
+        "key": "lee"
+      },
+      {
+        "name": "Nehal Dwaram",
+        "role": "Cultural Director",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/nehal.jpeg",
+        "key": "nehal"
+      }
+    ],
+    "chairs": [
+      {
+        "name": "Bri Denson",
+        "role": "Historian",
+        "statement": "I take sick pics!",
+        "img": "/assets/images/boardpics/bri.jpg",
+        "key": "bri"
+      },
+      {
+        "name": "Tina Mei",
+        "role": "Historian",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/tina.jpg",
+        "key": "tina"
+      },
+      {
+        "name": "Leo Lee-Spagnolo",
+        "role": "Performance",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/leo.jpg",
+        "key": "leo"
+      },
+      {
+        "name": "Satya Clemetson",
+        "role": "Performance",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/satya.jpg",
+        "key": "satya"
+      },
+      {
+        "name": "Ember Suh",
+        "role": "Publicity",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/ember.png",
+        "key": "ember"
+      },
+      {
+        "name": "Jiho Lee",
+        "role": "Publicity",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/jiho.jpeg",
+        "key": "jiho"
+      },
+      {
+        "name": "Lauren Yun",
+        "role": "Korean Language Program",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/lauren.jpg",
+        "key": "lauren"
+      },
+      {
+        "name": "Yejin Lee",
+        "role": "Korean Language Program",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/rachel_lee.jpg",
+        "key": "yejin"
+      },
+      {
+        "name": "Jiaxue Chi",
+        "role": "Fundraising",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/jackie.jpg",
+        "key": "jiaxue"
+      },
+      {
+        "name": "Mary Kim",
+        "role": "Social",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/mary.jpg",
+        "key": "mary"
+      },
+      {
+        "name": "Matthew Hahn",
+        "role": "Social",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/matthew.png",
+        "key": "matthew"
+      },
+      {
+        "name": "Jase Kemp",
+        "role": "Athletics",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/jase.jpg",
+        "key": "jase"
+      },
+      {
+        "name": "William Hahn",
+        "role": "Athletics",
+        "statement": "Blah blah blah blah blah!",
+        "img": "/assets/images/boardpics/william.jpg",
+        "key": "william"
+      }
+    ]
+  },
+  "features": {
+    "title": "Latest & greatest ",
+    "subtitle": "All the best technologies out there!",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "items": [
+      {
+        "name": "React.js",
+        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "icon": "/assets/images/react.png",
+        "key": "react"
+      },
+      {
+        "name": "Tailwind",
+        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "icon": "/assets/images/tailwindcss.svg",
+        "key": "tailwind"
+      },
+      {
+        "name": "Next.js",
+        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "icon": "/assets/images/nextjs.svg",
+        "key": "next"
+      },
+      {
+        "name": "Typescript",
+        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "icon": "/assets/images/ts.png",
+        "key": "typescript"
+      }
+    ]
+  },
+  "pillars": {
+    "title": "Pillars",
+    "images": {
+      "big": "/assets/images/biglittle.jpg",
+      "atlanta": "/assets/images/atlantatrip.jpg",
+      "kkoom": "/assets/images/kkoom.png"
+    },
+    "items": [
+      {
+        "title": "Culture",
+        "subtitle": "Through GBMs and Shows we share Korea's culture",
+        "description": "KUSA GBMs focuses on teaching Korean culture and serves as a welcoming and interactive session for members to learn and celebrate various aspects of Korean traditions, language, cuisine, music, and contemporary culture. These meetings often include cultural presentations, fun games, and opportunities to try Korean food. Check out some of our previous GBMs below!",
+        "image": "/assets/images/culture.jpg",
+        "key": "culture"
+      },
+      {
+        "title": "Community",
+        "subtitle": "KUSA Big/Little, Atlanta Trip, Philanthrophy",
+        "description": "Through various events and programs, KUSA aims to connect with the community, both internally within our own organization and externally with broader Gainesville and beyond!",
+        "image": "/assets/images/happyTeam.jpeg",
+        "key": "community"
+      },
+      {
+        "title": "Education",
+        "subtitle": "Korean Language Program (KLP) and other workshops",
+        "description": "Each semester, our KLP chairs host 1-2 language workshops where anyone can come to learn various Korean words, phrases, and basic grammer. Since Korean culture is rapidly spreading more and more widespread globally, the Korean language of Hangul is more relevant and useful than ever before. Come learn Korean with KUSA!",
+        "image": "/assets/images/klp.jpg",
+        "key": "education"
+      }
+    ]
+  },
+  "gbm": [
+    {
+      "name": "2023 Fall GBM 4: Thanksgiving Potluck",
+      "url": "https://www.canva.com/design/DAFzi9wFmB0/g3ekO_yUQaFWxdHkqj0W4Q/view?utm_content=DAFzi9wFmB0&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "image": "/assets/images/gbm/2023gbm4.png",
+        "key": "2023gbm4"
+    },
+    {
+      "name": "2023 Fall GBM 3: Korean Horror",
+      "url": "https://www.canva.com/design/DAFxrKoE2wA/rOT5BBF00tUkEkuzdkMbyA/view?utm_content=DAFxrKoE2wA&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "image": "/assets/images/gbm/2023gbm3.png",
+        "key": "2023gbm3"
+    },
+    {
+      "name": "2023 Fall GBM 2: Pororo",
+      "url": "https://www.canva.com/design/DAFuNwniV-M/03ip9y2vhcXabxY5S5U-Cg/view?utm_content=DAFuNwniV-M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+      "image": "/assets/images/gbm/2023gbm2.png",
+        "key": "2023gbm2"
+    },
+    {
+      "name": "2023 Fall GBM 1: Tour Through Korea",
+      "url": "https://www.canva.com/design/DAFs9rW_ThQ/hE4v2SXx47BDOLI-MInQkQ/view?utm_content=DAFs9rW_ThQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+      "image": "/assets/images/gbm/2023gbm1.png",
+        "key": "2023gbm1"
+    },
+    {
+      "name": "2023 Summer GBM: Water Bomb",
+      "url": "https://www.canva.com/design/DAFpG2r1CXc/A2wVXR6CCKLVohyDmMTEuw/view",
+      "image": "/assets/images/gbm/2023gbmsummer.png",
+        "key": "2023gbmsummer"
+    }
+  ],
+  "photos": {
+    "Spring 2024": [
+      {
+        "name": "Spring Formal",
+        "url": "https://drive.google.com/drive/u/0/folders/1tTUv1RdDKH_PsyemxnDk4h9mbTvIb9VG",
+        "image": "/assets/images/2023-2024/formal.png",
+        "key": "formal"
+      },
+      {
+        "name": "Running Man 2024",
+        "url": "https://drive.google.com/drive/folders/1-3oAKoe_qal429PjGgxRXxARxATvhtai",
+        "image": "/assets/images/2023-2024/runningman.png",
+        "key": "running"
+      },
+      {
+        "name": "Spring KLP #2",
+        "url": "",
+        "image": "/assets/images/2023-2024/klp.png",
+        "key": "klp2"
+      },
+      {
+        "name": "Spring GBM #3",
+        "url": "https://drive.google.com/drive/u/0/folders/11ETaN4k3XlmfrLkfji4s77q41HNlqTg1",
+        "image": "/assets/images/2023-2024/bar.png",
+        "key": "gbm3"
+      },
+      {
+        "name": "KUSA x FLP",
+        "url": "https://drive.google.com/drive/u/0/folders/11F0W6XPgXiDi9kfp5-L1P69OGPRbp01O",
+        "image": "/assets/images/2023-2024/bracelet.png",
+        "key": "flp"
+      },
+      {
+        "name": "Seollal",
+        "url": "https://drive.google.com/drive/u/0/folders/117FI-ybZc2aJTAIhzEJyyedXDBzM9UH7",
+        "image": "/assets/images/2023-2024/seollal2024.png",
+        "key": "seollal"
+      },
+      {
+        "name": "KLP #1",
+        "url": "https://drive.google.com/drive/u/0/folders/1hUQBGpg-MpgatDVVGT4dEVhQXNhnnw_q",
+        "image": "/assets/images/2023-2024/valentine.png",
+        "key": "klp1"
+      },
+      {
+        "name": "Atlanta Trip",
+        "url": "https://photos.google.com/share/AF1QipOs-u7lnLNnqvFsGDNZLC19ysCEtcLlIHjHXqPUfObnYLeYUm52jPFBGsRv9Hh9Cw?key=Mk5xa2xFbGVUV2FvMDU1UWxvRnl6dFNNWHZzeFZR",
+        "image": "/assets/images/2023-2024/atlanta.png",
+        "key": "atlanta"
+      },
+      {
+        "name": "Spring GBM 2",
+        "url": "https://drive.google.com/drive/u/0/folders/1GMGAuNbIVXJCcvdHbKcNq7iNAx3Nj034",
+        "image": "/assets/images/2023-2024/ramen.png",
+        "key": "gbm2"
+      },
+      {
+        "name": "Spring GBM #1",
+        "url": "https://drive.google.com/drive/u/0/folders/10g4tnDqWJJVxyMQPGT_gf7B0umpl8vRo",
+        "image": "/assets/images/2023-2024/newyear.png",
+        "key": "gbm1"
+      }
+    ],
+    "2022-2023": [
+      {
+        "name": "Chuseok 2022",
+        "url": "https://ufkusa.editorx.io/chuseok-into-the-u-3",
+        "image": "/assets/images/2023-2024/chuseok2022.png",
+        "key": "chuseok"
+      },
+      {
+        "name": "GBM #3",
+        "url": "https://ufkusa.editorx.io/3rd-gbm-a-murder-mys",
+        "image": "/assets/images/2023-2024/murdermystery.png",
+        "key": "oggbm3"
+      },
+      {
+        "name": "Glizzy Night",
+        "url": "https://ufkusa.editorx.io/kusa-collab-glizzy-n",
+        "image": "/assets/images/2023-2024/glizzy.png",
+        "key": "glizzy"
+      },
+      {
+        "name": "Seollal 2023",
+        "url": "https://ufkusa.editorx.io/seollal-journey-into",
+        "image": "/assets/images/2023-2024/seollal2023.png",
+        "key": "ogseollal"
+      },
+      {
+        "name": "Running Man 2023",
+        "url": "https://ufkusa.editorx.io/running-man-2023",
+        "image": "/assets/images/2023-2024/runningman2022.png",
+        "key": "ogrunning"
+      }
+    ],
+    "Fall 2023": [
+      {
+        "name": "KLP #2 K-Dramas",
+        "url": "https://drive.google.com/drive/u/0/folders/10aJYnj55MFSNJhiacoMH5LlrudnwKOYr",
+        "image": "/assets/images/2023-2024/kdrama.png",
+        "key": "kdrama"
+      },
+      {
+        "name": "Fall GBM #4",
+        "url": "https://drive.google.com/drive/u/6/folders/10IpMK_7t0bfMpGfg7Yeu65B9x-osIstN",
+        "image": "/assets/images/2023-2024/potluck.png",
+        "key": "fallgbm4"
+      },
+      {
+        "name": "CASA x KUSA x HEAL",
+        "url": "https://drive.google.com/drive/folders/1i_wdquRDwsoMpa1pj3Ywaw-EjbBEUq5u",
+        "image": "/assets/images/2023-2024/starry.png",
+        "key": "ckh"
+      },
+      {
+        "name": "Fall GBM #3",
+        "url": "https://drive.google.com/drive/u/0/folders/1cJHoCa5DpZels-BIm1eosTLltM49SAiT",
+        "image": "/assets/images/2023-2024/horror.png",
+        "key": "fallgbm3"
+      },
+      {
+        "name": "Chuseok 2023",
+        "url": "https://drive.google.com/drive/u/0/folders/1-6mLAj0XlNYu26uZRJ1u7rH_vjKO4kFA",
+        "image": "/assets/images/2023-2024/chuseok2023.png",
+        "key": "2023chuseok"
+      },
+      {
+        "name": "Fall GBM #2",
+        "url": "https://drive.google.com/drive/folders/1-oI8bQJt_uABhJjLiQB5Ve7j6YFO9bN1",
+        "image": "/assets/images/2023-2024/biglil.png",
+        "key": "fallgbm2"
+      },
+      {
+        "name": "Fall GBM #1",
+        "url": "https://drive.google.com/drive/folders/1-gF3BIUofvl_Ih_O1Iuvs-aTL6jqComq",
+        "image": "/assets/images/2023-2024/tour.png",
+        "key": "fallgbm1"
+      },
+      {
+        "name": "AASA 2023",
+        "url": "https://drive.google.com/drive/folders/1--xqy9x5U0cMkNUsYBNnkpsxKkuvp-su",
+        "image": "/assets/images/2023-2024/aasa.png",
+        "key": "aasa2023"
+      },
+      {
+        "name": "Summer Intramurals",
+        "url": "https://photos.google.com/share/AF1QipNS7eYJiBz5gvmjdi272MeZjTSNKUyPHNq-QBx8IbhDA-m4TiAwz2enYDiXlu_ecw?key=cWNSd2VneFQ3LVpTVjd0bXVtVDlQX1BJU1VmTUF3",
+        "image": "/assets/images/2023-2024/volleyball.png",
+        "key": "summerintramurals"
+      },
+      {
+        "name": "St. Augustine Beach Trip",
+        "url": "https://drive.google.com/drive/folders/1HOFRt_NrPSjybm8Yqb1ARhdE0FCK9NxS",
+        "image": "/assets/images/2023-2024/staug.png",
+        "key": "staug"
+      },
+      {
+        "name": "Summer GBM",
+        "url": "https://drive.google.com/drive/u/6/folders/1Xjs0EQ0_D_EsRAsHB-XXc2TuXZJrHHke",
+        "image": "/assets/images/2023-2024/waterbomb.png",
+        "key": "2022gbmsummer"
+      }
+    ]
+  },
+  "calendar": {
+    "image": "/assets/images/calendar/september.png"
+  },
+  "about": {
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/ufkusa/",
+      "facebook": "https://www.facebook.com/kusatuf",
+      "linktree": "https://linktr.ee/ufkusa"
+    }
+  }
+}
