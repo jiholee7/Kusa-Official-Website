@@ -26,7 +26,7 @@ const Canvas = (props: CanvasProps) => {
       <CanvasContext.Provider value={{ context }}>
         <div className='relative text-center mx-auto'>
           <canvas id="canvas" ref={canvasRef} width={width} height={150}></canvas>
-          <div className='absolute inset-0 content-center px-auto w-full text-5xl font-bold leading-tight text-center text-primary'>{props.title}</div>
+          <div className='absolute inset-0 content-center px-auto w-full text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-center text-primary'>{props.title}</div>
           <Wave />
         </div>
         
