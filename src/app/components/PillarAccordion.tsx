@@ -90,7 +90,7 @@ const PillarAccordion = (props: AccProps) => {
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, lectus at placerat scelerisque, urna nulla tincidunt orci, vel bibendum est dui ac sapien. Suspendisse nec ultricies est. Curabitur nec velit!
                     </p>
-                    <a className='w-64 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10' target='_blank' href={'https://www.instagram.com/ufkusa/'}>Placehold button</a> 
+                    <a className='w-full sm:w-64 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10' target='_blank' href={'https://www.instagram.com/ufkusa/'}>Placehold button</a> 
                                        
                 </AccordionItemPanel>
             </AccordionItem>
