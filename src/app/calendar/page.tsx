@@ -22,7 +22,7 @@ const Calendar = () => {
         </div>
       </div>
       <h1
-        className={`w-full my-2 text-6xl font-bold leading-tight text-center text-black pt-8`}
+        className={`w-full my-2 text-4xl med:text-5xl lg:text-6xl font-bold leading-tight text-center text-black pt-8`}
       >
         Calendar
       </h1>
@@ -31,8 +31,8 @@ const Calendar = () => {
           className={`h-1 mx-auto bg-primary w-64 opacity-25 my-0 py-0 rounded-t`}
         ></div>
       </div>
-      <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl flex flex-col items-center">
-        <span className={`block text-black xl:inline text-3xl`}>
+      <h1 className="text-2xl tracking-tight font-extrabold text-gray-900 md:text-3xl lg:text-4xl flex flex-col items-center text-center">
+        <span className={`block text-black xl:inline px-12`}>
           Please check out our <a className='text-primary' href='https://www.instagram.com/ufkusa/' target='_black'>Instagram</a> for event specifics and more!
         </span>
       </h1>

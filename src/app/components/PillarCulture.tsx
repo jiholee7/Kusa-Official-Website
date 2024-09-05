@@ -17,7 +17,7 @@ const PillarCulture = (props: PillarProps) => {
             className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 text-center`}
           >
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl flex flex-col items-start">
+              <h1 className="text-5xl tracking-tight font-extrabold text-gray-900 md:text-6xl flex flex-col items-center lg:items-start">
                 <span className="block xl:inline">{props.title}</span>
                 <span className={`block text-primary xl:inline text-4xl`}>
                   {props.subtitle}

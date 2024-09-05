@@ -10,7 +10,7 @@ const Product = () => {
     <section className={`bg-background py-1`} id="product">
       <div className={`container max-w-5xl mx-auto med:my-1 lg:my-10`}>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+          className={`w-full my-2 text-3xl med:text-4xl lg:text-5xl font-bold leading-tight text-center text-primary`}
         >
           {board.title.split(' ').map((word, index) => (
             <span

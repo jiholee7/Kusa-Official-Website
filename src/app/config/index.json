@@ -52,7 +52,7 @@
       {
         "name": "Joseph Choi",
         "role": "President",
-        "statement": "Here to make KUSA awesome!",
+        "statement": "Put in member statement/pronouns/other stuff!",
         "img": "/assets/images/boardpics/joe.jpg",
         "key": "joe"
       },
@@ -103,7 +103,7 @@
       {
         "name": "Bri Denson",
         "role": "Historian",
-        "statement": "I take sick pics!",
+        "statement": "Blah blah blah blah blah!",
         "img": "/assets/images/boardpics/bri.jpg",
         "key": "bri"
       },
@@ -229,27 +229,27 @@
     "images": {
       "big": "/assets/images/biglittle.jpg",
       "atlanta": "/assets/images/atlantatrip.jpg",
-      "kkoom": "/assets/images/kkoom.png"
+      "kkoom": "/assets/images/happyTeam.jpeg"
     },
     "items": [
       {
-        "title": "Culture",
-        "subtitle": "Through GBMs and Shows we share Korea's culture",
-        "description": "KUSA GBMs focuses on teaching Korean culture and serves as a welcoming and interactive session for members to learn and celebrate various aspects of Korean traditions, language, cuisine, music, and contemporary culture. These meetings often include cultural presentations, fun games, and opportunities to try Korean food. Check out some of our previous GBMs below!",
+        "title": "Pillar 2",
+        "subtitle": "Pillar 2 stuff ah blah blah blah blah blah",
+        "description": "Pillar 2 stuff. Maybe mention GBM/shows. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!",
         "image": "/assets/images/culture.jpg",
         "key": "culture"
       },
       {
-        "title": "Community",
-        "subtitle": "KUSA Big/Little, Atlanta Trip, Philanthrophy",
-        "description": "Through various events and programs, KUSA aims to connect with the community, both internally within our own organization and externally with broader Gainesville and beyond!",
+        "title": "Pillar 1",
+        "subtitle": "Pillar 1 stuff blah blah blah bla blah blah",
+        "description": "Pillar 1 stuff. mention kusa work for community? Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!",
         "image": "/assets/images/happyTeam.jpeg",
         "key": "community"
       },
       {
-        "title": "Education",
-        "subtitle": "Korean Language Program (KLP) and other workshops",
-        "description": "Each semester, our KLP chairs host 1-2 language workshops where anyone can come to learn various Korean words, phrases, and basic grammer. Since Korean culture is rapidly spreading more and more widespread globally, the Korean language of Hangul is more relevant and useful than ever before. Come learn Korean with KUSA!",
+        "title": "Pillar 3",
+        "subtitle": "Pillar 3 is cool blah blah blah blah blah blah",
+        "description": "Pillar 3 stuff. could mention klp. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!",
         "image": "/assets/images/klp.jpg",
         "key": "education"
       }

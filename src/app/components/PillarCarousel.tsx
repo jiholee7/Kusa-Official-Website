@@ -30,7 +30,7 @@ const PillarCarousel = () => {
 
   const sliderSettings = {
     slidesPerView: 1,
-    spaceBetween: 50,
+    spaceBetween: 20,
     breakpoints: {
       480: {
         slidesPerView: 1
@@ -65,8 +65,8 @@ const PillarCarousel = () => {
   return (
     <section className={`bg-background py-8`} id="pricing">
       <div className={`relative container mx-auto px-2 pt-4 pb-12 text-primary`}>
-        <div className='absolute top-20 text-6xl transition ease-in-out hover:scale-110 duration-200 hover:text-secondary left-0 lg:top-48 lg:left-10 cursor-pointer' onClick={nextPillar}>&#10096;</div>
-        <div className='absolute text-6xl transition ease-in-out hover:scale-110 duration-200 hover:text-secondary right-0 top-20 lg:top-48 lg:right-10 cursor-pointer' onClick={prevPillar}>&#10097;</div>
+        <div className='absolute top-20 text-6xl transition ease-in-out hover:scale-110 duration-200 hover:text-secondary left-0 lg:top-48 lg:left-10 cursor-pointer hidden sm:block' onClick={nextPillar}>&#10096;</div>
+        <div className='absolute text-6xl transition ease-in-out hover:scale-110 duration-200 hover:text-secondary right-0 top-20 lg:top-48 lg:right-10 cursor-pointer hidden sm:block' onClick={prevPillar}>&#10097;</div>
         <h1
           className={`w-full my-2 text-6xl font-bold leading-tight text-center text-black`}
         >
@@ -126,40 +126,40 @@ const PillarCarousel = () => {
 
         <div>
           <div className='w-full px-16'>{pillar==1 &&
-              <LazyShow>
-                <>
-                  <PillarCulture title={p1?.title} subtitle={p1?.subtitle} description={p1?.description} image={p1?.image}/>
-                  <h1
-                    className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary pt-20`}
-                  >
-                    GBMs
-                  </h1>
-                  <div className={`w-full mb-4 pb-8`}>
-                    <div
-                      className={`h-1 mx-auto bg-primary w-64 opacity-25 my-0 py-0 rounded-t`}
-                    ></div>
-                  </div>
-                  <div className='w-96 sm:w-full'>
-                    <Swiper {...sliderSettings}>
-                      <SliderButtons/>
-                      {
-                        gbm.map((card, i) => (
-                          <SwiperSlide key={i}>
-                            <div className="flex flex-col gap-6 text-center rounded-xl shadow-lg justify-center items-center p-12 h-full hover:scale-105 hover:bg-primary/25 transition ease-in-out hover:scale-110 duration-200">
-                              <img className='rounded-xl object-cover' src={card.image} alt="home" />
-                              <span className="text-xl text-primary font-bold">{card.name}</span>
-                              <a className='med:w-18 lg:w-32 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10' target='_blank' href={card.url}>Slides</a>  
-                              
-                            </div>
-                          </SwiperSlide>
-                        ))
-                      }
-                    </Swiper>
-                  </div>
-                  
-                </>
-              </LazyShow>
-            }
+            <LazyShow>
+              <>
+                <PillarCulture title={p1?.title} subtitle={p1?.subtitle} description={p1?.description} image={p1?.image}/>
+                <h1
+                  className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary pt-20`}
+                >
+                  GBMs
+                </h1>
+                <div className={`w-full mb-4 pb-8`}>
+                  <div
+                    className={`h-1 mx-auto bg-primary w-64 opacity-25 my-0 py-0 rounded-t`}
+                  ></div>
+                </div>
+                <div className='w-80 mx-auto sm:w-full'>
+                  <Swiper {...sliderSettings}>
+                    <SliderButtons/>
+                    {
+                      gbm.map((card, i) => (
+                        <SwiperSlide key={i}>
+                          <div className="flex flex-col gap-6 text-center rounded-xl shadow-lg justify-center items-center p-12 my-4 mt-6 mx-auto w-4/5 sm:w-11/12 h-full hover:scale-105 hover:bg-primary/25 transition ease-in-out hover:scale-110 duration-200">
+                            <img className='rounded-xl object-cover' src={card.image} alt="home" />
+                            <span className="text-xl text-primary font-bold">{card.name}</span>
+                            <a className='med:w-18 lg:w-32 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10' target='_blank' href={card.url}>Slides</a>  
+                            
+                          </div>
+                        </SwiperSlide>
+                      ))
+                    }
+                  </Swiper>
+                </div>
+                
+              </>
+            </LazyShow>
+          }
           </div>
           <div className='w-full px-16'>{pillar==2 &&
               <LazyShow>

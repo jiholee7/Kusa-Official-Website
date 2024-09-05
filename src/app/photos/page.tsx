@@ -29,7 +29,7 @@ const Photos = () => {
 
   const sliderSettings = {
     slidesPerView: 1,
-    spaceBetween: 50,
+    spaceBetween: 0,
     breakpoints: {
       480: {
         slidesPerView: 1
@@ -58,7 +58,7 @@ const Photos = () => {
         </div>
       </div>
       <h1
-        className={`w-full my-2 text-6xl font-bold leading-tight text-center text-black pt-8`}
+        className={`w-full my-2 text-5xl lg:text-6xl font-bold leading-tight text-center text-black pt-8`}
       >
         Photos
       </h1>
@@ -71,17 +71,17 @@ const Photos = () => {
       <div className='my-8'>
         <Canvas title='Spring 2024' />
       </div>
-      <div className={`relative container mx-auto px-2 pt-4 pb-12 text-primary`}>
-        <div className='w-full px-16'>
+      <div className={`relative container mx-auto pt-4 pb-12 text-primary`}>
+        <div className='w-full px-20'>
           <LazyShow>
             <>
-              <div className='w-96 sm:w-full'>
+              <div className='w-80 sm:w-full mx-auto'>
                 <Swiper {...sliderSettings}>
                   <SliderButtons/>
                   {
                     photos['Spring 2024'].map((card, i) => (
                       <SwiperSlide key={i}>
-                        <div className="flex flex-col gap-6 text-center rounded-xl shadow-lg justify-center items-center p-12 h-full hover:scale-105 hover:bg-primary/25 transition ease-in-out hover:scale-110 duration-200">
+                        <div className="flex flex-col gap-6 text-center rounded-xl shadow-lg justify-center items-center p-12 my-4 mt-6 mx-auto h-full w-4/5 hover:scale-105 hover:bg-primary/25 transition ease-in-out hover:scale-110 duration-200">
                           <img className='rounded-xl object-cover' src={card.image} alt="home" />
                           <span className="text-xl text-primary font-bold">{card.name}</span>
                           <a className='med:w-18 lg:w-32 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10' target='_blank' href={card.url}>Pictures</a>  
@@ -101,17 +101,17 @@ const Photos = () => {
       <div className='my-8'>
         <Canvas title='Fall 2023' />
       </div>
-      <div className={`relative container mx-auto px-2 pt-4 pb-12 text-primary`}>
-        <div className='w-full px-16'>
+      <div className={`relative container mx-auto pt-4 pb-12 text-primary`}>
+        <div className='w-full px-20'>
           <LazyShow>
             <>
-              <div className='w-96 sm:w-full'>
+              <div className='w-80 sm:w-full mx-auto'>
                 <Swiper {...sliderSettings}>
                   <SliderButtons/>
                   {
                     photos['Fall 2023'].map((card, i) => (
                       <SwiperSlide key={i}>
-                        <div className="flex flex-col gap-6 text-center rounded-xl shadow-lg justify-center items-center p-12 h-full hover:scale-105 hover:bg-primary/25 transition ease-in-out hover:scale-110 duration-200">
+                        <div className="flex flex-col gap-6 text-center rounded-xl shadow-lg justify-center items-center p-12 my-4 mt-6 mx-auto h-full w-4/5 hover:scale-105 hover:bg-primary/25 transition ease-in-out hover:scale-110 duration-200">
                           <img className='rounded-xl object-cover' src={card.image} alt="home" />
                           <span className="text-xl text-primary font-bold">{card.name}</span>
                           <a className='med:w-18 lg:w-32 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10' target='_blank' href={card.url}>Pictures</a>  
@@ -131,17 +131,17 @@ const Photos = () => {
       <div className='my-8'>
         <Canvas title='Fall 2022 - Spring 2023' />
       </div>
-      <div className={`relative container mx-auto px-2 pt-4 pb-12 text-primary`}>
-        <div className='w-full px-16'>
+      <div className={`relative container mx-auto pt-4 pb-12 text-primary`}>
+        <div className='w-full px-20'>
           <LazyShow>
             <>
-              <div className='w-96 sm:w-full'>
+              <div className='w-80 sm:w-full mx-auto'>
                 <Swiper {...sliderSettings}>
                   <SliderButtons/>
                   {
                     photos['2022-2023'].map((card, i) => (
                       <SwiperSlide key={i}>
-                        <div className="flex flex-col gap-6 text-center rounded-xl shadow-lg justify-center items-center p-12 h-full hover:scale-105 hover:bg-primary/25 transition ease-in-out hover:scale-110 duration-200">
+                        <div className="flex flex-col gap-6 text-center rounded-xl shadow-lg justify-center items-center p-12 my-4 mt-6 mx-auto h-full w-4/5 hover:scale-105 hover:bg-primary/25 transition ease-in-out hover:scale-110 duration-200">
                           <img className='rounded-xl object-cover' src={card.image} alt="home" />
                           <span className="text-xl text-primary font-bold">{card.name}</span>
                           <a className='med:w-18 lg:w-32 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10' target='_blank' href={card.url}>Pictures</a>  
@@ -157,6 +157,8 @@ const Photos = () => {
           </LazyShow>
         </div>
       </div>
+
+      
 
       <Canvas title=''/>
       <About /> 

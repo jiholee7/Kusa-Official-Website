@@ -22,6 +22,9 @@ const config: Config = {
       '6xl': '4rem',
     },
     extend: {
+      spacing: {
+        '128': '38rem'
+      },
       colors: {
         primary: '#ec4755',
         secondary: '#a12c34',

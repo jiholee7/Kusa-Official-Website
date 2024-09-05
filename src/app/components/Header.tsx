@@ -25,7 +25,7 @@ const Menu = () => {
       </svg>
 
       <Popover>
-        <div className="relative pt-6 pb-6 px-4 sm:px-6 lg:px-8">
+        <div className="relative pt-10 px-4 sm:px-6 lg:px-8">
           <nav
             className="relative flex items-center justify-between sm:h-10 lg:justify-start"
             aria-label="Global"
@@ -35,7 +35,7 @@ const Menu = () => {
                 <Link href="/">
                   <div className='cursor-pointer'>
                     <span className="sr-only">{companyName}</span>
-                    <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
+                    <img alt="logo" className="h-16 w-auto sm:h-24" src={logo} />
                   </div>
                 </Link>
                 <div className="-mr-2 flex items-center md:hidden">
@@ -52,7 +52,7 @@ const Menu = () => {
               {navigation.map((item) => (
                 <Link
                   href={item.href}
-                  className='text-primary'
+                  className='text-lg text-primary transition ease-in-out duration-200 hover:underline hover:font-bold'
                   key={item.key}
                 >
                   {item.name}
@@ -101,7 +101,7 @@ const Menu = () => {
                   >
                     <Link
                       href={item.href}
-                      className='text-primary'
+                      className='text-primary transition ease-in-out duration-200 hover:underline hover:font-bold'
                     >
                       {item.name}
                     </Link>
