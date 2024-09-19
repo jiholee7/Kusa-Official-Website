@@ -23,7 +23,7 @@ const PillarAccordion = (props: AccProps) => {
                 <AccordionItemHeading>
                     <AccordionItemButton className="bg-white p-4 w-full justify-between cursor-pointer flex hover:bg-gray-200/25">
                       <div className="font-bold text-lg">
-                        Pillar 1 accordion desc 1
+                        KUSA Big/Little
                       </div>
                       <div>
                         <MdOutlineArrowDropDown size={32}/>
@@ -32,13 +32,13 @@ const PillarAccordion = (props: AccProps) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel className="flex flex-col gap-2 mb-6 text-black px-4">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, lectus at placerat scelerisque, urna nulla tincidunt orci, vel bibendum est dui ac sapien. Suspendisse nec ultricies est. Curabitur nec velit ac nisi facilisis volutpat.
+                    Big/Little Week is a two day program where our External Vice Presidents pair underclassmen (후배) with upperclassmen (선배). KUSA hosts games and activities for the Bigs and Littles to get to know one another better. 
                     </p>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, lectus at placerat scelerisque, urna nulla tincidunt orci, vel bibendum est dui.
+                    Every semester KUSA releases a Big/Little Form where students can apply to be a Big, Little, or both! We try to pair our members based on their interests and what they are looking for in a Big or Little.
                     </p>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis!
+                      Apply to be a Big, Little, or both and be a part of our KUSA ​가족! 
                     </p>                   
                 </AccordionItemPanel>
             </AccordionItem>
@@ -48,7 +48,7 @@ const PillarAccordion = (props: AccProps) => {
                 <AccordionItemHeading>
                     <AccordionItemButton className="bg-white p-4 w-full justify-between cursor-pointer flex hover:bg-gray-200/25">
                       <div className="font-bold text-lg">
-                        Pillar 1 accordion desc 2
+                        Atlanta Trip
                       </div>
                       <div>
                         <MdOutlineArrowDropDown size={32}/>
@@ -57,13 +57,13 @@ const PillarAccordion = (props: AccProps) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel className="flex flex-col gap-2 mb-6 text-black px-4">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, lectus at placerat scelerisque, urna nulla tincidunt orci, vel bibendum est dui ac sapien. Suspendisse nec ultricies est. Curabitur nec velit ac nisi facilisis volutpat. 
+                      Every Spring Semester KUSA goes on a trip to Atlanta, Georgia for a weekend. Members explore the K-Town that Atlanta has to offer. We visit various shops, museums, cafes, restaurants, and karaoke. Members are not restricted to just Korean related activities/places. Last year, our members visited the Aquarium and Coke Factory.
                      </p>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, lectus at placerat scelerisque, urna nulla tincidunt orci, vel bibendum est dui ac sapien. 
+                      The 2024 Atlanta Trip form is posted on our LinkTree. Our IVP is hosting Zoom Interest Meetings. Those who are going MUST attend at least one meeting.
                     </p>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, lectus at placerat scelerisque, urna nulla tincidunt orci, vel bibendum est dui ac sapien. Suspendisse!
+                      If you have any questions about the KUSA Atlanta Trip, please email our Internal Vice President at <a href= "mailto: kusa.ivp@gmail.com"> kusa.ivp@gmail.com </a>
                     </p>                   
                 </AccordionItemPanel>
             </AccordionItem>
@@ -73,7 +73,7 @@ const PillarAccordion = (props: AccProps) => {
                 <AccordionItemHeading>
                     <AccordionItemButton className="bg-white p-4 w-full justify-between cursor-pointer flex hover:bg-gray-200/25">
                       <div className="font-bold text-lg">
-                        Pillar 1 accordion desc 3
+                        KUSA Social Events
                       </div>
                       <div>
                         <MdOutlineArrowDropDown size={32}/>
@@ -82,15 +82,15 @@ const PillarAccordion = (props: AccProps) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel className="flex flex-col items-center gap-5 mb-6 text-black px-4">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, lectus at placerat scelerisque, urna nulla tincidunt orci, vel bibendum est dui ac sapien.
+                      KUSA has many socials throughout the year including study socials, picnics, casual sports, and more!
                     </p>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, lectus at placerat scelerisque, urna nulla tincidunt orci, vel bibendum est dui ac sapien. Suspendisse nec ultricies est.
+                      We also have aftersocials after GBMs at local restaurants or cafes!
                     </p>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, lectus at placerat scelerisque, urna nulla tincidunt orci, vel bibendum est dui ac sapien. Suspendisse nec ultricies est. Curabitur nec velit!
+                      Keep up to date for any upcoming socials through our instagram! Come hang out with KUSA!
                     </p>
-                    <a className='w-full sm:w-64 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10' target='_blank' href={'https://www.instagram.com/ufkusa/'}>Placehold button</a> 
+                    <a className='w-64 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10' target='_blank' href={'https://www.instagram.com/ufkusa/'}>Instagram</a> 
                                        
                 </AccordionItemPanel>
             </AccordionItem>

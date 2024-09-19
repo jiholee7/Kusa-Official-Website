@@ -44,8 +44,12 @@ const Board = () => {
               <img src={item.img} className='rounded-2xl h-72 w-full object-cover hover:bg-red-300'/>
               <div className='absolute inset-0 rounded-2xl bg-transparent text-transparent hover:text-white
               hover:bg-red-300/75 duration-250 '>
-                <div className='mt-14 mx-5 text-lg'>{item.role}</div>
-                <div className='mt-14 mx-5 text-sm'>{item.statement}</div>
+                <div className='mt-12 mx-5 text-lg'>{item.role}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.pronouns}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.major}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.year}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.socials}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.statement}</div>
               </div>
             </div>  
           ))}
@@ -64,8 +68,12 @@ const Board = () => {
               <img src={item.img} className='rounded-2xl h-72 w-full object-cover hover:bg-red-300'/>
               <div className='absolute inset-0 rounded-2xl bg-transparent text-transparent hover:text-white
               hover:bg-red-300/75 duration-250 '>
-                <div className='mt-14 mx-5 text-lg'>{item.role}</div>
-                <div className='mt-14 mx-5 text-sm'>{item.statement}</div>
+                <div className='mt-12 mx-5 text-lg'>{item.role}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.pronouns}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.major}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.year}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.socials}</div>
+                <div className='mt-4 mx-5 text-sm'>{item.statement}</div>
               </div>
             </div>        
           ))}

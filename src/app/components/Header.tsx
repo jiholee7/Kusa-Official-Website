@@ -48,8 +48,9 @@ const Menu = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-              {navigation.map((item) => (
+            <div className="hidden md:flex md:flex-row md:justify-between md:items-center lg:ml-10 md:pr-20 w-full">
+              <div className='hidden md:flex md:flex-row md:justify-between md:items-center md:ml-10 pr-8 lg:pr-20 md:space-x-8'>
+                {navigation.map((item) => (
                 <Link
                   href={item.href}
                   className='text-lg text-primary transition ease-in-out duration-200 hover:underline hover:font-bold'
@@ -58,6 +59,27 @@ const Menu = () => {
                   {item.name}
                 </Link>
               ))}
+              </div>
+              <div className='md:flex md:flex-row space-x-4 lg:space-x-8 lg:pl-40 xl:pl-52'>
+                <Link
+                  href={'/'}
+                  className='w-24 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-3 md:text-lg md:px-10'
+                >
+                  DANCE
+                </Link>
+                <Link
+                  href={'/'}
+                  className='w-24 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-3 md:text-lg md:px-10'
+                >
+                  SPORTS
+                </Link>
+                <Link
+                  href={'/'}
+                  className='w-24 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-3 md:text-lg md:px-10'
+                >
+                  KLP
+                </Link>
+              </div>
             </div>
           </nav>
         </div>
@@ -73,7 +95,7 @@ const Menu = () => {
         >
           <Popover.Panel
             focus
-            className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+            className="absolute z-40 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           >
             <div
               className={`rounded-lg shadow-md bg-background ring-1 ring-black ring-opacity-5 overflow-hidden`}
@@ -95,18 +117,35 @@ const Menu = () => {
               </div>
               <div className="px-2 pt-2 pb-3 space-y-1">
                 {navigation.map((item) => (
-                  <div
+                  <Link
                     key={item.key}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                    href={item.href}
+                    className='text-primary transition ease-in-out duration-200 hover:underline hover:font-bold block px-3 py-2 rounded-md font-medium hover:bg-gray-50'
                   >
-                    <Link
-                      href={item.href}
-                      className='text-primary transition ease-in-out duration-200 hover:underline hover:font-bold'
-                    >
-                      {item.name}
-                    </Link>
-                  </div>
+                    {item.name}
+                  </Link>
                 ))}
+                <div className='flex flex-row justify-between space-x-4'>
+                  <Link
+                    href={'/'}
+                    className="block flex-1 flex flex-col items-center px-3 py-2 rounded-md text-base font-medium hover:text-primary bg-primary hover:bg-border transition ease-in-out duration-200"
+                  >
+                    DANCE
+                  </Link>
+                  <Link
+                    href={'/'}
+                    className="block flex-1 flex flex-col items-center px-3 py-2 rounded-md text-base font-medium hover:text-primary bg-primary hover:bg-border transition ease-in-out duration-200"
+                  >
+                    SPORTS
+                  </Link>
+                  <Link
+                    href={'/'}
+                    className="block flex-1 flex flex-col items-center px-3 py-2 rounded-md text-base font-medium hover:text-primary bg-primary hover:bg-border transition ease-in-out duration-200"
+                  >
+                    KLP
+                  </Link>
+                </div>
+                
               </div>
             </div>
           </Popover.Panel>

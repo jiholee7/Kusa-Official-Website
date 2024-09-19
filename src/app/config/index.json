@@ -52,49 +52,77 @@
       {
         "name": "Joseph Choi",
         "role": "President",
-        "statement": "Put in member statement/pronouns/major/minor/other stuff!",
+        "statement": "KUSA has given me a home away from home!",
+        "pronouns": "He/Him",
+        "major": "Economics & Political Science",
+        "year": "2nd",
+        "socials": "@_joechoi_",
         "img": "/assets/images/boardpics/joe.jpg",
         "key": "joe"
       },
       {
         "name": "Colin Strom",
         "role": "External Vice President",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "KUSA became my home, and I wouldn’t be where I am today without it.",
+        "pronouns": "They/He",
+        "major": "Marketing / Asian Studies minor",
+        "year": "2nd",
+        "socials": "@strom_colin",
         "img": "/assets/images/boardpics/colin.jpg",
         "key": "colin"
       },
       {
         "name": "Lindsay Cruz",
         "role": "Internal Vice President",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "She/Her",
+        "major": "Info Systems / Econ minor",
+        "year": "3rd",
+        "socials": "@lindsayy.mariee",
         "img": "/assets/images/boardpics/lindsay.jpg",
         "key": "lindsay"
       },
       {
         "name": "Rachel Obora",
         "role": "Secretary",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "KUSA brought back my love for dancing and new friends <3",
+        "pronouns": "She/Her",
+        "major": "Microbiology / Pre-Med",
+        "year": "3rd",
+        "socials": "@rachel.obora",
         "img": "/assets/images/boardpics/rachel.jpg",
         "key": "rachel"
       },
       {
         "name": "Kevin Liu",
         "role": "Treasurer",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "He/Him",
+        "major": "Physics and Microbiology",
+        "year": "4th",
+        "socials": "@kevin_liu21",
         "img": "/assets/images/boardpics/kevin.jpg",
         "key": "kevin"
       },
       {
         "name": "Lee Ahn",
         "role": "Cultural Director",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "He/Him",
+        "major": "Info Systems / Econ minor",
+        "year": "3rd",
+        "socials": "@jaeyonahn",
         "img": "/assets/images/boardpics/lee.jpg",
         "key": "lee"
       },
       {
         "name": "Nehal Dwaram",
         "role": "Cultural Director",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "She/Her",
+        "major": "Biology / Pre-Med",
+        "year": "3rd",
+        "socials": "@ndwaram_",
         "img": "/assets/images/boardpics/nehal.jpeg",
         "key": "nehal"
       }
@@ -103,91 +131,132 @@
       {
         "name": "Bri Denson",
         "role": "Historian",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "She/Her",
+        "major": "Biotechnology",
+        "year": "5th",
+        "socials": "",
         "img": "/assets/images/boardpics/bri.jpg",
         "key": "bri"
       },
       {
-        "name": "Tina Mei",
-        "role": "Historian",
-        "statement": "Blah blah blah blah blah!",
-        "img": "/assets/images/boardpics/tina.jpg",
-        "key": "tina"
-      },
-      {
         "name": "Leo Lee-Spagnolo",
         "role": "Performance",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "He/Him",
+        "major": "Info Systems / Food Science minor",
+        "year": "3rd",
+        "socials": "@4me.leo",
         "img": "/assets/images/boardpics/leo.jpg",
         "key": "leo"
       },
       {
         "name": "Satya Clemetson",
         "role": "Performance",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "KUSA dance means the world to me!",
+        "pronouns": "She/Her",
+        "major": "Business Administration",
+        "year": "2nd",
+        "socials": "@s4tyaa",
         "img": "/assets/images/boardpics/satya.jpg",
         "key": "satya"
       },
       {
         "name": "Ember Suh",
         "role": "Publicity",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "She/Her",
+        "major": "Public Health / Statistics minor",
+        "year": "2nd",
+        "socials": "@_dpaqj",
         "img": "/assets/images/boardpics/ember.png",
         "key": "ember"
       },
       {
         "name": "Jiho Lee",
         "role": "Publicity",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "I made this website lol. And i love KUSA!",
+        "pronouns": "He/Him",
+        "major": "Computer Science",
+        "year": "3rd",
+        "socials": "@jiho.klee",
         "img": "/assets/images/boardpics/jiho.jpeg",
         "key": "jiho"
       },
       {
         "name": "Lauren Yun",
         "role": "Korean Language Program",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "She/Her",
+        "major": "Info Systems",
+        "year": "2nd",
+        "socials": "@laurenyun",
         "img": "/assets/images/boardpics/lauren.jpg",
         "key": "lauren"
       },
       {
         "name": "Yejin Lee",
         "role": "Korean Language Program",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "She/Her",
+        "major": "Info Systems",
+        "year": "2nd",
+        "socials": "@rrrachel_lee",
         "img": "/assets/images/boardpics/rachel_lee.jpg",
         "key": "yejin"
       },
       {
         "name": "Jiaxue Chi",
         "role": "Fundraising",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "Through joining dance and sports, KUSA helped me find a great community!",
+        "pronouns": "She/Her",
+        "major": "Finance / Wealth Management minor",
+        "year": "2nd",
+        "socials": "@chijiaxue",
         "img": "/assets/images/boardpics/jackie.jpg",
         "key": "jiaxue"
       },
       {
         "name": "Mary Kim",
         "role": "Social",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "She/Her",
+        "major": "Psychology / Pre-Med",
+        "year": "2nd",
+        "socials": "@mary_kim888",
         "img": "/assets/images/boardpics/mary.jpg",
         "key": "mary"
       },
       {
         "name": "Matthew Hahn",
         "role": "Social",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "He/Him",
+        "major": "Aerospace Engineering / Asian Studies minor",
+        "year": "2nd",
+        "socials": "@matthewhahn_",
         "img": "/assets/images/boardpics/matthew.png",
         "key": "matthew"
       },
       {
         "name": "Jase Kemp",
         "role": "Athletics",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "I joined KUSA because of volleyball, I stayed because the people. :)",
+        "pronouns": "He/Him",
+        "major": "Mechanical Engineering",
+        "year": "2nd",
+        "socials": "@jase_914",
         "img": "/assets/images/boardpics/jase.jpg",
         "key": "jase"
       },
       {
         "name": "William Hahn",
         "role": "Athletics",
-        "statement": "Blah blah blah blah blah!",
+        "statement": "",
+        "pronouns": "He/Him",
+        "major": "Computer Science",
+        "year": "2nd",
+        "socials": "@williamhahn17",
         "img": "/assets/images/boardpics/william.jpg",
         "key": "william"
       }
@@ -229,29 +298,36 @@
     "images": {
       "big": "/assets/images/biglittle.jpg",
       "atlanta": "/assets/images/atlantatrip.jpg",
-      "kkoom": "/assets/images/happyTeam.jpeg"
+      "socialevent": "/assets/images/socials.jpg"
     },
     "items": [
       {
-        "title": "Pillar 2",
-        "subtitle": "Pillar 2 stuff ah blah blah blah blah blah",
-        "description": "Pillar 2 stuff. Maybe mention GBM/shows. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!",
-        "image": "/assets/images/culture.jpg",
-        "key": "culture"
-      },
-      {
-        "title": "Pillar 1",
-        "subtitle": "Pillar 1 stuff blah blah blah bla blah blah",
-        "description": "Pillar 1 stuff. mention kusa work for community? Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!",
+        "title": "Community",
+        "subtitle": "KUSA Big/Little, Atlanta Trip, Philanthrophy",
+        "description": "Through various events and programs, KUSA aims to connect with the community, both internally within our own organization and externally with broader Gainesville and beyond!",
         "image": "/assets/images/happyTeam.jpeg",
         "key": "community"
       },
       {
-        "title": "Pillar 3",
-        "subtitle": "Pillar 3 is cool blah blah blah blah blah blah",
-        "description": "Pillar 3 stuff. could mention klp. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!",
+        "title": "Culture",
+        "subtitle": "Through GBMs and Shows we share Korea's culture",
+        "description": "KUSA GBMs focuses on teaching Korean culture and serves as a welcoming and interactive session for members to learn and celebrate various aspects of Korean traditions, language, cuisine, music, and contemporary culture. These meetings often include cultural presentations, fun games, and opportunities to try Korean food. Check out some of our previous GBMs below!",
+        "image": "/assets/images/culture.jpg",
+        "key": "culture"
+      },
+      {
+        "title": "Education",
+        "subtitle": "Korean Language Program (KLP) and other workshops",
+        "description": "Each semester, our KLP chairs host 1-2 language workshops where anyone can come to learn various Korean words, phrases, and basic grammer. Since Korean culture is rapidly spreading more and more widespread globally, the Korean language of Hangul is more relevant and useful than ever before. Come learn Korean with KUSA!",
         "image": "/assets/images/klp.jpg",
         "key": "education"
+      },
+      {
+        "title": "Philanthrophy",
+        "subtitle": "Through Korean Kids and Orphanage Outreach Mission (KKOOM) we help provide access to education for Korean youth",
+        "description": "Korean Kids and Orphanage Outreach Mission (KKOOM) provides access to education for Korean youth, such as funding for preschool and college scholarships. KKOOM also sponsors and hosts holiday celebrations, summer activities, and other events throughout the year which helps the children and young adults have fun and learn life skills. Additionally, KKOOM gives gifts of clothing, household items, and other tangible support to meet the basic needs at Korean children&#39;s homes. To learn more about KKOOM and help their mission, please visit their website!",
+        "image": "/assets/images/kkoom.png",
+        "key": "philanthrophy"
       }
     ]
   },

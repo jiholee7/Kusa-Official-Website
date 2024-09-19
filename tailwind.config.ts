@@ -22,6 +22,10 @@ const config: Config = {
       '6xl': '4rem',
     },
     extend: {
+      scale: {
+        '120': '1.20',
+        '115': '1.15',
+      },
       spacing: {
         '128': '38rem'
       },
