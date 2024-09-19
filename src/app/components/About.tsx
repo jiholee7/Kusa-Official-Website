@@ -50,7 +50,7 @@ const About = () => {
         </div>
         <div className="flex items-center mt-6 w-20 sm:w-40">
           <p className="mt-6 text-xs lg:text-sm leading-none text-black">
-            {new Date().getFullYear()} made for KUSA
+            {new Date().getFullYear()} made for UF KUSA
           </p>
         </div>
       </div>
