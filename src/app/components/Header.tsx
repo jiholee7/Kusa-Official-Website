@@ -62,19 +62,19 @@ const Menu = () => {
               </div>
               <div className='md:flex md:flex-row space-x-4 lg:space-x-8 lg:pl-40 xl:pl-52'>
                 <Link
-                  href={'/'}
+                  href={'/dance'}
                   className='w-24 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-3 md:text-lg md:px-10'
                 >
                   DANCE
                 </Link>
                 <Link
-                  href={'/'}
+                  href={'/sports'}
                   className='w-24 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-3 md:text-lg md:px-10'
                 >
                   SPORTS
                 </Link>
                 <Link
-                  href={'/'}
+                  href={'/klp'}
                   className='w-24 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-3 md:text-lg md:px-10'
                 >
                   KLP
@@ -127,19 +127,19 @@ const Menu = () => {
                 ))}
                 <div className='flex flex-row justify-between space-x-4'>
                   <Link
-                    href={'/'}
+                    href={'/dance'}
                     className="block flex-1 flex flex-col items-center px-3 py-2 rounded-md text-base font-medium hover:text-primary bg-primary hover:bg-border transition ease-in-out duration-200"
                   >
                     DANCE
                   </Link>
                   <Link
-                    href={'/'}
+                    href={'/sports'}
                     className="block flex-1 flex flex-col items-center px-3 py-2 rounded-md text-base font-medium hover:text-primary bg-primary hover:bg-border transition ease-in-out duration-200"
                   >
                     SPORTS
                   </Link>
                   <Link
-                    href={'/'}
+                    href={'/klp'}
                     className="block flex-1 flex flex-col items-center px-3 py-2 rounded-md text-base font-medium hover:text-primary bg-primary hover:bg-border transition ease-in-out duration-200"
                   >
                     KLP
