@@ -131,7 +131,7 @@ const PillarCarousel = () => {
           </div>
 
           <div
-            className={`md:absolute flex flex-col w-5/6 md:w-1/3 mx-auto lg:mx-0 rounded-lg bg-background mt-4 md:mt-20 shadow-lg cursor-pointer transition ease-in-out hover:scale-105 duration-200 hover:text-secondary md:scale-85 md:hover:scale-90 md:drop-shadow-md md:hover:drop-shadow-[0_10px_20px_rgba(0,0,0,0.05)]`}
+            className={`md:absolute flex flex-col w-5/6 md:w-1/3 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4 md:mt-20 shadow-lg cursor-pointer transition ease-in-out hover:scale-105 duration-200 hover:text-secondary md:scale-85 md:hover:scale-90 md:drop-shadow-md md:hover:drop-shadow-[0_10px_20px_rgba(0,0,0,0.05)]`}
             onClick={nextNextPillar}
           >
             <div
@@ -182,7 +182,7 @@ const PillarCarousel = () => {
             </LazyShow>
           }
           </div>
-          <div className='w-full px-16'>{pillar==4 &&
+          <div className='w-full px-8'>{pillar==4 &&
               <LazyShow>
                 <>
                   <PillarCommunity title={p1.title} subtitle={p1.subtitle} description={p1.description} image={p1.image} />
@@ -198,7 +198,7 @@ const PillarCarousel = () => {
               </LazyShow>
             }
           </div>
-          <div className='w-full px-16'>{pillar==3 &&
+          <div className='w-full px-8'>{pillar==3 &&
               <LazyShow>
                 <>
                   <PillarPhil title={p4.title} subtitle={p4.subtitle} description={p4.description} image={p4.image} />
