@@ -151,7 +151,7 @@ const Sports = () => {
                                           Based on the popular Korean Variety show of the same name, Running Man is an event KUSA holds every year where players can compete in teams to test their athletic and problem solving abilities. Get ready to laugh, race, and compete with your squad for bragging rights and awesome prizes! Make sure to bring your A-game as we turn the campus into a playground of fun and challenges.
                                         </p>           
                                         <p>
-                                          KUSA also offers a variety of intramural teams that anyone can join each semester during the intramural season. Make sure to follow our instagram (linked in "Meet Our Team") to keep up to date on what intramural sports teams KUSA offers.
+                                          KUSA also offers a variety of intramural teams that anyone can join each semester during the intramural season. Make sure to follow our instagram (linked in &#34;Meet Our Team&#34;) to keep up to date on what intramural sports teams KUSA offers.
                                         </p>
                                     </AccordionItemPanel>
                                 </AccordionItem>
@@ -173,7 +173,7 @@ const Sports = () => {
                                         Spring KUSA Running Man will be on Friday, March 14, 2025. Details about exact time and location will be out in the future!
                                         </p>
                                         <p>
-                                        Follow our instagram (linked in "Meet Our Team") to be regularly updated about upcoming casual volleyball days, potential volleyball workshops, and other events!
+                                        Follow our instagram (linked in &#34;Meet Our Team&#34;) to be regularly updated about upcoming casual volleyball days, potential volleyball workshops, and other events!
                                         </p>
                                         <p>
                                         Join our Discord to be part of the KUSA Sports family!
