@@ -4,6 +4,7 @@ export interface PillarProps{
   title: string | undefined,
   subtitle: string | undefined,
   description: string | undefined,
+  description2: string | undefined,
   image: string | undefined
 }
 
@@ -25,6 +26,9 @@ const PillarCulture = (props: PillarProps) => {
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 {props.description}
+              </p>
+              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                {props.description2}
               </p>
             </div>
           </div>

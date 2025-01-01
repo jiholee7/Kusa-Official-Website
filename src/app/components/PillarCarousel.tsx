@@ -149,7 +149,7 @@ const PillarCarousel = () => {
           <div className='w-full px-16'>{pillar==1 &&
             <LazyShow>
               <>
-                <PillarCulture title={p2.title} subtitle={p2.subtitle} description={p2.description} image={p2.image}/>
+                <PillarCulture title={p2.title} subtitle={p2.subtitle} description={p2.description} description2={p2.description2} image={p2.image}/>
                 <h1
                   className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary pt-20`}
                 >
@@ -193,7 +193,7 @@ const PillarCarousel = () => {
           <div className='w-full px-16'>{pillar==2 &&
               <LazyShow>
                 <>
-                  <PillarCulture title={p3.title} subtitle={p3.subtitle} description={p3.description} image={p3.image} />
+                  <PillarCulture title={p3.title} subtitle={p3.subtitle} description={p3.description} description2={p3.description2} image={p3.image} />
                 </>
               </LazyShow>
             }

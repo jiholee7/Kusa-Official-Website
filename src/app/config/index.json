@@ -37,7 +37,7 @@
     "description": "KUSA was established in 1985 with one goal: to provide a safe, welcoming space for students of any background interested in Korean culture to come together. Through our pillars of Culture, Community, Education, and Philanthrophy, KUSA is a resource to share and celebrate Korean culture.",
     "img": "/assets/images/kusahero.jpg",
     "primaryAction": {
-      "text": "Vist our Instagram!",
+      "text": "Visit our Instagram",
       "href": "https://www.instagram.com/ufkusa/"
     },
     "secondaryAction": {
@@ -61,26 +61,15 @@
         "key": "joe"
       },
       {
-        "name": "Colin Strom",
-        "role": "External Vice President",
-        "statement": "KUSA became my home, and I wouldn’t be where I am today without it.",
-        "pronouns": "They/He",
-        "major": "Marketing / Asian Studies minor",
-        "year": "2nd year",
-        "socials": "@strom_colin",
-        "img": "/assets/images/boardpics/colin.jpg",
-        "key": "colin"
-      },
-      {
-        "name": "Lindsay Cruz",
+        "name": "Bri Denson",
         "role": "Internal Vice President",
         "statement": "",
         "pronouns": "She/Her",
-        "major": "Info Systems / Econ minor",
-        "year": "3rd year",
-        "socials": "@lindsayy.mariee",
-        "img": "/assets/images/boardpics/lindsay.jpg",
-        "key": "lindsay"
+        "major": "Biotechnology",
+        "year": "5th year",
+        "socials": "",
+        "img": "/assets/images/boardpics/bri.jpg",
+        "key": "bri"
       },
       {
         "name": "Rachel Obora",
@@ -128,39 +117,6 @@
       }
     ],
     "chairs": [
-      {
-        "name": "Bri Denson",
-        "role": "Historian",
-        "statement": "",
-        "pronouns": "She/Her",
-        "major": "Biotechnology",
-        "year": "5th year",
-        "socials": "",
-        "img": "/assets/images/boardpics/bri.jpg",
-        "key": "bri"
-      },
-      {
-        "name": "Leo Lee-Spagnolo",
-        "role": "Performance",
-        "statement": "",
-        "pronouns": "He/Him",
-        "major": "Info Systems / Food Science minor",
-        "year": "3rd year",
-        "socials": "@4me.leo",
-        "img": "/assets/images/boardpics/leo.jpg",
-        "key": "leo"
-      },
-      {
-        "name": "Satya Clemetson",
-        "role": "Performance",
-        "statement": "KUSA dance means the world to me!",
-        "pronouns": "She/Her",
-        "major": "Business Administration",
-        "year": "2nd year",
-        "socials": "@s4tyaa",
-        "img": "/assets/images/boardpics/satya.jpg",
-        "key": "satya"
-      },
       {
         "name": "Ember Suh",
         "role": "Publicity",
@@ -239,9 +195,20 @@
         "key": "matthew"
       },
       {
+        "name": "Kiersten Morris",
+        "role": "Social",
+        "statement": "KUSA has allowed me to continue my love for Korean culture and now I get to share that with others.",
+        "pronouns": "She/Her",
+        "major": "Art History",
+        "year": "2nd year",
+        "socials": "@kierstennichole",
+        "img": "/assets/images/boardpics/kiersten.jpeg",
+        "key": "kiersten"
+      },
+      {
         "name": "Jase Kemp",
         "role": "Athletics",
-        "statement": "I joined KUSA because of volleyball, I stayed because the people. :)",
+        "statement": "I joined KUSA because of volleyball, I stayed because the people :)",
         "pronouns": "He/Him",
         "major": "Mechanical Engineering",
         "year": "2nd year",
@@ -259,6 +226,50 @@
         "socials": "@williamhahn17",
         "img": "/assets/images/boardpics/william.jpg",
         "key": "william"
+      },
+      {
+        "name": "Milla Bogicevic",
+        "role": "Performance",
+        "statement": "",
+        "pronouns": "She/Her",
+        "major": "Psychology",
+        "year": "1st year",
+        "socials": "millabogicevic",
+        "img": "/assets/images/boardpics/milla.png",
+        "key": "milla"
+      },
+      {
+        "name": "Caity Beasley",
+        "role": "Historian",
+        "statement": "",
+        "pronouns": "She/Her",
+        "major": "Elementary Education",
+        "year": "3rd year",
+        "socials": "@caitydeziree",
+        "img": "/assets/images/boardpics/caity.jpg",
+        "key": "caity"
+      },
+      {
+        "name": "Elle Fourie",
+        "role": "Multimedia",
+        "statement": "Looking forward to the smiles of my KUSA kajok!!",
+        "pronouns": "She/Her",
+        "major": "Architecture",
+        "year": "2nd year",
+        "socials": "@i_luv_kit.kat",
+        "img": "/assets/images/boardpics/elle.png",
+        "key": "elle"
+      },
+      {
+        "name": "William Sharek",
+        "role": "Multimedia",
+        "statement": "Just very happy to be here!",
+        "pronouns": "He/Him",
+        "major": "APK",
+        "year": "1st year",
+        "socials": "@williamjosephsharek",
+        "img": "/assets/images/boardpics/wills.jpg",
+        "key": "wills"
       }
     ]
   },
@@ -310,27 +321,82 @@
       },
       {
         "title": "Culture",
-        "subtitle": "Through GBMs and Shows we share Korea's culture",
-        "description": "KUSA GBMs focuses on teaching Korean culture and serves as a welcoming and interactive session for members to learn and celebrate various aspects of Korean traditions, language, cuisine, music, and contemporary culture. These meetings often include cultural presentations, fun games, and opportunities to try Korean food. Check out some of our previous GBMs below!",
+        "subtitle": "Through GBMs, as well as Chuseok and Seollal Shows, we share Korea's culture",
+        "description": "KUSA GBMs focus on teaching Korean culture and serve as a welcoming and interactive session for members to learn and celebrate various aspects of Korean traditions, language, cuisine, music, and contemporary culture. These meetings often include cultural presentations, fun games, and opportunities to try Korean food. Check out some of our previous GBMs below!",
+        "description2":  "We also have a cultural show each Fall and Spring semester, for Chuseok and Seollal. Chuseok is Korean Thanksgiving and it is the time to celebrate the harvest, family, and ancestors. Seollal is Korean Lunar New Year and is celebrated by honoring ancestors and playing traditional games. In our shows, we incorporate dancing, skits, and games to share our traditions and stories.",
         "image": "/assets/images/culture.jpg",
         "key": "culture"
       },
       {
         "title": "Education",
         "subtitle": "Korean Language Program (KLP) and other workshops",
-        "description": "Each semester, our KLP chairs host 1-2 language workshops where anyone can come to learn various Korean words, phrases, and basic grammer. Since Korean culture is rapidly spreading more and more widespread globally, the Korean language of Hangul is more relevant and useful than ever before. Come learn Korean with KUSA!",
+        "description": "Each semester our KLP chairs host 1-2 language workshops where anyone can come to learn various Korean words, phrases, and basic grammer. Since Korean culture is rapidly spreading globally, the Korean language of Hangul is more relevant and useful than ever before. We also host other workshops for learning dance and volleyball! Come learn a new skill with KUSA!",
         "image": "/assets/images/klp.jpg",
         "key": "education"
       },
       {
         "title": "Philanthrophy",
         "subtitle": "Through Korean Kids and Orphanage Outreach Mission (KKOOM) we help provide access to education for Korean youth",
-        "description": "Korean Kids and Orphanage Outreach Mission (KKOOM) provides access to education for Korean youth, such as funding for preschool and college scholarships. KKOOM also sponsors and hosts holiday celebrations, summer activities, and other events throughout the year which helps the children and young adults have fun and learn life skills. Additionally, KKOOM gives gifts of clothing, household items, and other tangible support to meet the basic needs at Korean children's homes. To learn more about KKOOM and help their mission, please visit their website!",
+        "description": "Korean Kids and Orphanage Outreach Mission (KKOOM) provides access to education for Korean youth, such as funding for preschool and college scholarships. KKOOM also sponsors and hosts holiday celebrations, summer activities, and other events throughout the year which help the children and young adults have fun and learn life skills. Additionally, KKOOM gives gifts of clothing, household items, and other tangible support to meet the basic needs at Korean children's homes. To learn more about KKOOM and help their mission, please visit their website!",
         "image": "/assets/images/kkoom.png",
         "key": "philanthrophy"
       }
     ]
   },
+  "klp": [
+    {
+      "name": "2024 Fall Workshop #1: Lovely Learner",
+      "url": "https://photos.google.com/share/AF1QipMRxM8EIGFnJ-CVFDuNvTe6oYK-rzSlYiB8U_JVEAQA95mId8w7OLFe5Gf1OT-qlg?key=ZEZoR3JYZENub1dETU5iSjQzZ3B2aUFOQ2l2QlRB",
+      "image": "/assets/images/klpws1.jpeg",
+        "key": "lovely"
+    },
+    {
+      "name": "2024 Fall Workshop #2: A Trip to the Market",
+      "url": "https://photos.google.com/share/AF1QipMRxM8EIGFnJ-CVFDuNvTe6oYK-rzSlYiB8U_JVEAQA95mId8w7OLFe5Gf1OT-qlg?key=ZEZoR3JYZENub1dETU5iSjQzZ3B2aUFOQ2l2QlRB",
+      "image": "/assets/images/klpws2.jpeg",
+        "key": "market"
+    },
+    {
+      "name": "KLP X Chilli: K-Chi Bites",
+      "url": "",
+      "image": "/assets/images/kchi.jpeg",
+        "key": "kchi"
+    }
+  ],
+  "sports": [
+    {
+      "name": "Fall 24 Casual Volleyball",
+      "url": "https://photos.google.com/share/AF1QipNQS4Pzp32-hmz-b1XINgZ0ENBYqtNiCBC55dIQTyaSdJX4ART0MDrFVGfp96S3RA?key=TDQxc0dDRHVpaDVSMHZPbm5yZTBtd2ZWczlyMVVn",
+      "image": "/assets/images/casualvb.png",
+        "key": "casual"
+    },
+    {
+      "name": "Minecraft Bedwars Tournament",
+      "url": "",
+      "image": "/assets/images/minecraft.png",
+        "key": "bedwars"
+    },
+    {
+      "name": "Fall 24 Intramurals Volleyball",
+      "url": "https://photos.google.com/share/AF1QipNQS4Pzp32-hmz-b1XINgZ0ENBYqtNiCBC55dIQTyaSdJX4ART0MDrFVGfp96S3RA?key=TDQxc0dDRHVpaDVSMHZPbm5yZTBtd2ZWczlyMVVn",
+      "image": "/assets/images/vbintra.png",
+        "key": "intramural"
+    }
+  ],
+  "dance": [
+    {
+      "name": "Chuseok 2024",
+      "url": "https://drive.google.com/drive/u/6/folders/1-OV5O2Vb0tF7m82U38vXH2e-w0YpCJ3-",
+      "image": "/assets/images/chuseok.JPG",
+        "key": "dancechuseok"
+    },
+    {
+      "name": "AASA 2024",
+      "url": "https://photos.google.com/share/AF1QipMooD9SRRmJtO6w38U-KAnIXtdm_MFRXMpf0NAwzKQxmxaB7ase_X2d5Mdq6L8JhA?key=ekV2UndCSEwxaW5aWnpTWmNFdzAyRzhBQ2Q3a1lB",
+      "image": "/assets/images/aasa2.JPG",
+        "key": "danceaasa"
+    }
+  ],
   "gbm": [
     {
       "name": "2023 Fall GBM 4: Thanksgiving Potluck",
@@ -364,6 +430,26 @@
     }
   ],
   "photos": {
+    "Fall 2024": [
+      {
+        "name": "Fall GBM #1",
+        "url": "https://drive.google.com/drive/u/0/folders/1-N372scNnQSHNq2sCGm55hmJWdOaMFtb",
+        "image": "/assets/images/2023-2024/olympic.PNG",
+        "key": "gbm1"
+      },
+      {
+        "name": "Fall GBM #3",
+        "url": "https://drive.google.com/drive/u/0/folders/178bnWjo3s6XyqpEG8QsyCEhauCCTFe0Z",
+        "image": "/assets/images/2023-2024/horrorgbm.PNG",
+        "key": "gbm3"
+      },
+      {
+        "name": "Karaoke Social",
+        "url": "https://drive.google.com/drive/u/0/folders/1-JSztEzrAwKTCNh6E4ty79-CcIdu5zik",
+        "image": "/assets/images/2023-2024/karaoke.PNG",
+        "key": "karaoke"
+      }
+    ],
     "Spring 2024": [
       {
         "name": "Spring Formal",
@@ -528,7 +614,7 @@
     ]
   },
   "calendar": {
-    "image": "/assets/images/calendar/september.png"
+    "image": "/assets/images/calendar/december.jpeg"
   },
   "about": {
     "socialMedia": {

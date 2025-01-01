@@ -33,7 +33,7 @@ const Calendar = () => {
       </div>
       <h1 className="text-2xl tracking-tight font-extrabold text-gray-900 md:text-3xl lg:text-4xl flex flex-col items-center text-center">
         <span className={`block text-black xl:inline px-12`}>
-          Please check out our <a className='text-primary' href='https://www.instagram.com/ufkusa/' target='_black'>Instagram</a> for event specifics and more!
+          Please check out our <a className={'text-primary underline'} href='https://www.instagram.com/ufkusa/' target='_black'>Instagram</a> for event specifics and more!
         </span>
       </h1>
       <LazyShow>

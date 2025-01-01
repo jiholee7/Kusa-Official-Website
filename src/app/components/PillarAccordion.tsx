@@ -17,7 +17,7 @@ const PillarAccordion = (props: AccProps) => {
   const { setAccNum } = props;
   return (
     <section>
-      <Accordion allowMultipleExpanded={false} preExpanded={[0]} className="mt-10 mr-14">
+      <Accordion allowMultipleExpanded={false} preExpanded={[0]} className="mt-10 sm:mr-0 lg:mr-14">
           <div onClick={() => setAccNum(1)}>
             <AccordionItem className="bg-white overflow-hidden mb-6 shadow-lg">
                 <AccordionItemHeading>
@@ -57,10 +57,10 @@ const PillarAccordion = (props: AccProps) => {
                 </AccordionItemHeading>
                 <AccordionItemPanel className="flex flex-col gap-2 mb-6 text-black px-4">
                     <p>
-                      Every Spring Semester KUSA goes on a trip to Atlanta, Georgia for a weekend. Members explore the K-Town that Atlanta has to offer. We visit various shops, museums, cafes, restaurants, and karaoke. Members are not restricted to just Korean related activities/places. Last year, our members visited the Aquarium and Coke Factory.
-                     </p>
+                      Every Spring Semester KUSA goes on a trip to Atlanta, Georgia for a weekend. We explore the K-Town that Atlanta has to offer and visit various shops, museums, cafes, restaurants, and karaoke. Our members are not restricted to just Korean related activities/places. We encourage members to explore and visit places the city has to offer such as the Georgia Aquarium and Coke Factory.
+                    </p>
                     <p>
-                      The 2024 Atlanta Trip form is posted on our LinkTree. Our IVP is hosting Zoom Interest Meetings. Those who are going MUST attend at least one meeting.
+                      Atlanta Trip information comes out in the fall. Information can be found on our instagram or linktree. In order to go, you MUST attend one information meeting led by our IVP.                
                     </p>
                     <p>
                       If you have any questions about the KUSA Atlanta Trip, please email our Internal Vice President at <a href= "mailto: kusa.ivp@gmail.com"> kusa.ivp@gmail.com </a>
