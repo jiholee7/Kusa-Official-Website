@@ -192,7 +192,7 @@ const Sports = () => {
                     <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                       <img
                         className="h-56 pl-16 w-4/5 object-cover object-top sm:h-80 md:h-96 lg:w-full lg:h-full"
-                        src={accNum==1 ? "/assets/images/sportsaction.JPG" : accNum==2 ? "/assets/images/sportschairs.JPG" : accNum==3 ? "/assets/images/sportsfront.jpg" : "/assets/images/vbaction2.jpg"}
+                        src={accNum==1 ? "/assets/images/vbaction2.jpg" : accNum==2 ? "/assets/images/sportschairs.JPG" : accNum==3 ? "/assets/images/sportsfront.jpg" : "/assets/images/vbaction2.jpg"}
                         alt="team image"
                       />
                     </div>
